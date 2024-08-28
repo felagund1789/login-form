@@ -1,0 +1,14 @@
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        app: "./signup.html"
+      }
+    }
+  },
+  server: {
+    open: "./signup.html"
+  }
+})
