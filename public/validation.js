@@ -42,3 +42,14 @@ function getFormErrors(firstname, email, password, repeatPassword) {
 
   return errors;
 }
+
+const allInputs = [firstname_input, email_input, password_input, repeat_password_input];
+
+allInputs.forEach(input => {
+  input.addEventListener("input", () => {
+    if (input.parentElement.classList.contains("incorrect")) {
+      input.parentElement.classList.remove("incorrect");
+      error_message.innerText = "";
+    }
+  });
+});
