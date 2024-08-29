@@ -59,7 +59,7 @@ login-form/
 ├── login.html         # HTML file for the Login page
 ├── style.css          # Main CSS file for styling
 ├── public/
-│   └── background.jpg # The image used as a background 
+│   ├── background.jpg # The image used as a background 
 │   └── validation.js  # JavaScript file for form validation
 ├── vite.config.js     # Configuration file for Vite
 ├── package.json       # Project dependencies and scripts
