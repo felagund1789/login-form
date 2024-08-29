@@ -5,7 +5,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-This is a simple web application that demonstrates a basic login and signup form. The project is built using Vite, HTML5, CSS3, and JavaScript. It showcases a beautiful and responsive layout using modern CSS techniques and includes basic form validation using JavaScript. This project is purely for demonstration purposes and does not involve any backend or API integration.
+This is a simple web application that demonstrates a basic login and signup form. The project is built using Vite, HTML5, CSS3, and JavaScript. It showcases a beautiful and responsive layout using modern CSS techniques, uses a light and a dark theme using @media queries, and includes basic form validation using JavaScript. This project is purely for demonstration purposes and does not involve any backend or API integration.
 
 ## Table of Contents
 
@@ -20,6 +20,7 @@ This is a simple web application that demonstrates a basic login and signup form
 
 - **Simple Signup and Login Forms**: Two pages are provided — one for signing up and one for logging in.
 - **Responsive Design**: The layout is fully responsive, ensuring a great user experience on any device.
+- **Light/Dark Theme**: The pages are themed to match the prefered theme of the user (light or dark)
 - **Form Validation**: JavaScript is used to implement basic form validation, enhancing user interaction.
 - **No Backend**: This is a front-end-only project, with no API or server-side logic.
 
