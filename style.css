@@ -36,7 +36,7 @@ body {
   box-sizing: border-box;
   background-color: var(--base-color);
   height: 100vh;
-  width: max(40%, 600px);
+  width: max(40%, 37.5rem);
   padding: 10px;
   border-radius: 0 20px 20px 0;
   display: flex;
@@ -50,7 +50,7 @@ h1 {
   text-transform: uppercase;
 }
 form {
-  width: min(400, 100%);
+  width: min(25rem, 100%);
   margin-top: 20px;
   margin-bottom: 50px;
   display: flex;
@@ -130,9 +130,9 @@ a:hover {
   text-decoration: underline;
 }
 
-@media(max-width: 1100px) {
+@media(max-width: 64rem) {
   .wrapper {
-    width: min(600px, 100%);
+    width: min(37.5rem, 100%);
     border-radius: 0;
   }
 }
